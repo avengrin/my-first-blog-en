@@ -15,6 +15,7 @@
             </time>
         {% endif %}
         <h2>{{ post.title }}</h2>
+        <p class="perex">{{ post.perex|linebreaksbr }}</p>
         <p>{{ post.text|linebreaksbr }}</p>
     </article>
 {% endblock %}
